@@ -1,0 +1,51 @@
+.help {
+  /* background-color: red; */
+  position: absolute;
+  right: 0px;
+  margin-top: 35px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  top: 400px;
+  /* background-color: red; */
+  /* bottom: 170px; */
+}
+
+.side {
+  display: none;
+  gap: 10px;
+  position: absolute;
+  right: 65px;
+  top: 5px;
+  animation-name: anim;
+  animation-duration: 1s;
+  width: 200px;
+  overflow: hidden;
+  cursor: pointer;
+
+  /* background-color: red; */
+  /* left: 20px; */
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 200px;
+  }
+}
+
+.side img {
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .help {
+    top: 750px;
+  }
+}

@@ -1,0 +1,2770 @@
+{
+  "topics": {
+    "1": {
+      "name": "#01 Binary Search Quiz",
+      "image": "/HTML_Template/images/bs.jpg",
+      "ID": "top1",
+      "noq": 4
+    },
+
+    "2": {
+      "name": "#02 Two Pointer Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-14.jpg",
+      "ID": "top2",
+      "noq": 4
+    },
+
+    "3": {
+      "name": "#03 Linked List Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-29.jpg",
+      "ID": "top3",
+      "noq": 4
+    },
+
+    "4": {
+      "name": "#04 Graph Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-26.jpg",
+      "ID": "top4",
+      "noq": 4
+    },
+
+    "5": {
+      "name": "#05 Tree Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-39.jpg",
+      "ID": "top5",
+      "noq": 4
+    },
+
+    "6": {
+      "name": "#06 DP Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-33.jpg",
+      "ID": "top6",
+      "noq": 4
+    },
+
+    "7": {
+      "name": "#07 Array Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-36.jpg",
+      "ID": "top7",
+      "noq": 4
+    },
+
+    "8": {
+      "name": "#08 Hashing Quiz",
+      "image": "/HTML_Template/images/photo_2025-04-01_12-09-43.jpg",
+      "ID": "top8",
+      "noq": 4
+    },
+
+    "9": {
+      "name": "#09 Stack Quiz",
+      "image": "/HTML_Template/images/Stack.png",
+      "ID": "top9",
+      "noq": 4
+    },
+
+    "10": {
+      "name": "#10 Queue Quiz",
+      "image": "/HTML_Template/images/queue.png",
+      "ID": "top10",
+      "noq": 4
+    },
+
+    "11": {
+      "name": "#11 Number Theory Quiz",
+      "image": "/HTML_Template/images/number_theory.jpg",
+      "ID": "top11",
+      "noq": 4
+    },
+
+    "12": {
+      "name": "#12 String Quiz",
+      "image": "/HTML_Template/images/string.png",
+      "ID": "top12",
+      "noq": 4
+    },
+
+    "13": {
+      "name": "#13 Game Theory Quiz",
+      "image": "/HTML_Template/images/game_theory.png",
+      "ID": "top13",
+      "noq": 4
+    },
+
+    "14": {
+      "name": "#14 Sorting Quiz",
+      "image": "/HTML_Template/images/sorting.png",
+      "ID": "top14",
+      "noq": 4
+    },
+
+    "15": {
+      "name": "#15 Pointer Quiz",
+      "image": "/HTML_Template/images/pointer.png",
+      "ID": "top15",
+      "noq": 4
+    },
+
+    "16": {
+      "name": "#16 Heap Quiz",
+      "image": "/HTML_Template/images/heap.png",
+      "ID": "top16",
+      "noq": 4
+    },
+
+    "17": {
+      "name": "#17 Divide & Conquer Quiz",
+      "image": "/HTML_Template/images/divide_and_conquer.jpg",
+      "ID": "top17",
+      "noq": 4
+    },
+
+    "18": {
+      "name": "#18 Recursion Quiz",
+      "image": "/HTML_Template/images/recursion.png",
+      "ID": "top18",
+      "noq": 4
+    },
+
+    "19": {
+      "name": "#19 Backtracking Quiz",
+      "image": "/HTML_Template/images/backtracking.png",
+      "ID": "top19",
+      "noq": 4
+    },
+
+    "20": {
+      "name": "#20 Bitmasking Quiz",
+      "image": "/HTML_Template/images/bitmasking.webp",
+      "ID": "top20",
+      "noq": 4
+    }
+  },
+
+  "quiz": {
+    "top1": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of binary search?",
+          "options": [
+            { "title": "nlogn" },
+            { "title": "n" },
+            { "title": "logn" },
+            { "title": "n^2" },
+            { "title": "n^3" },
+            { "title": "n^2logn" },
+            { "title": "logn^2" },
+            { "title": "1" }
+          ]
+        },
+        {
+          "title": "2. Binary search only works on which type of array?",
+          "options": [
+            { "title": "Unsorted array" },
+            { "title": "Sorted array" },
+            { "title": "Array with all distinct elements" },
+            { "title": "Array with only positive integers" },
+            { "title": "Array with all negative numbers" },
+            { "title": "Array with repeating elements" },
+            { "title": "Reversed array" },
+            { "title": "Random elements" }
+          ]
+        },
+        {
+          "title": "3. What is the main idea behind binary search?",
+          "options": [
+            { "title": "Divide the array into three parts" },
+            { "title": "Search every element linearly" },
+
+            { "title": "Sort the array first" },
+            {
+              "title": "Halve the array and search in one half"
+            },
+            { "title": "Start from the end and move backward" },
+            { "title": "Double the search index each time" },
+            { "title": "Search randomly" },
+            { "title": "Traverse from both ends" }
+          ]
+        },
+        {
+          "title": "4. What happens if the middle element is equal to the target in binary search?",
+          "options": [
+            { "title": "Continue searching in the left half" },
+            { "title": "Continue searching in the right half" },
+
+            { "title": "Restart the search" },
+            { "title": "Return -1" },
+            { "title": "Skip the next two elements" },
+            { "title": "Return the last index" },
+            { "title": "Element is found" },
+            { "title": "Start linear search" }
+          ]
+        }
+      ]
+    },
+
+    "top2": {
+      "questions": [
+        {
+          "title": "1. What is the two pointer technique commonly used for?",
+          "options": [
+            { "title": "Traversing two arrays simultaneously" },
+
+            { "title": "Reducing space complexity" },
+            { "title": "Merging two linked lists" },
+            { "title": "Optimizing nested loops" },
+            { "title": "Solving recursion problems" },
+            { "title": "Traversing binary trees" },
+            { "title": "Implementing hash maps" },
+            { "title": "Sorting arrays" }
+          ]
+        },
+        {
+          "title": "2. In which type of array is the two pointer method most commonly applied?",
+          "options": [
+            { "title": "Unsorted array" },
+            { "title": "Sorted array" },
+            { "title": "Random array" },
+            { "title": "Reversed array" },
+            { "title": "Array with duplicates" },
+            { "title": "Empty array" },
+            { "title": "Circular array" },
+            { "title": "Binary array" }
+          ]
+        },
+        {
+          "title": "3. Which problem is best solved using the two pointer approach?",
+          "options": [
+            { "title": "Finding a pair with a target sum" },
+            { "title": "Finding the middle element" },
+            { "title": "Finding the largest element" },
+            { "title": "Finding maximum frequency" },
+            { "title": "Binary search" },
+            { "title": "Depth First Search" },
+            { "title": "Counting elements" },
+            { "title": "Finding duplicates" }
+          ]
+        },
+        {
+          "title": "4. In a two pointer approach, how do the pointers usually move?",
+          "options": [
+            { "title": "Both stay static" },
+            { "title": "One moves forward, the other backward" },
+            { "title": "They move randomly" },
+            { "title": "They jump two indices each time" },
+            { "title": "Only one pointer moves" },
+            { "title": "Both move in the same direction" },
+            { "title": "They move in a zigzag pattern" },
+            { "title": "They are used to sort arrays" }
+          ]
+        }
+      ]
+    },
+
+    "top3": {
+      "questions": [
+        {
+          "title": "1. What is a linked list?",
+          "options": [
+            { "title": "A type of array with dynamic memory allocation" },
+            { "title": "A tree structure" },
+            { "title": "A stack implementation" },
+            { "title": "A matrix of elements" },
+            { "title": "A hash-based data structure" },
+            { "title": "A fixed-size list of integers" },
+            {
+              "title": "A collection of nodes where each node contains data and a pointer to the next node"
+            },
+            { "title": "An object-oriented class" }
+          ]
+        },
+        {
+          "title": "2. What is the time complexity to insert an element at the beginning of a singly linked list?",
+          "options": [
+            { "title": "O(1)" },
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n log n)" },
+            { "title": "O(1/n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+        {
+          "title": "3. Which of the following is not a type of linked list?",
+          "options": [
+            { "title": "Doubly linked list" },
+            { "title": "Circular linked list" },
+            { "title": "Triply linked list" },
+            { "title": "Tail linked list" },
+            { "title": "Singly linked list" },
+            { "title": "Head linked list" },
+            { "title": "Reverse linked list" },
+            { "title": "Multilevel linked list" }
+          ]
+        },
+        {
+          "title": "4. How do you detect a cycle in a linked list?",
+          "options": [
+            { "title": "Using Depth First Search" },
+            { "title": "By checking all values" },
+            { "title": "Sorting the list first" },
+            {
+              "title": "Using Floyd's Cycle Detection Algorithm (Tortoise and Hare)"
+            },
+            { "title": "Using HashMap only" },
+            { "title": "Using binary search" },
+            { "title": "Using a queue" },
+            { "title": "Using a counter variable" }
+          ]
+        }
+      ]
+    },
+
+    "top4": {
+      "questions": [
+        {
+          "title": "1. What is a graph?",
+          "options": [
+            { "title": "A collection of nodes only" },
+            { "title": "A collection of edges only" },
+            {
+              "title": "A collection of nodes (vertices) and edges connecting them"
+            },
+            { "title": "A sequence of numbers" },
+            { "title": "A tree structure with no cycles" },
+            { "title": "A directed acyclic graph" },
+            { "title": "A grid of nodes" },
+            { "title": "A matrix of nodes" }
+          ]
+        },
+        {
+          "title": "2. Which of the following is not a type of graph?",
+          "options": [
+            { "title": "Directed Graph" },
+            { "title": "Undirected Graph" },
+            { "title": "Weighted Graph" },
+            { "title": "Cyclic Graph" },
+            { "title": "Acyclic Graph" },
+            { "title": "Complete Graph" },
+            { "title": "Bipartite Graph" },
+            { "title": "Heap" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following algorithms is used to find the shortest path in a graph?",
+          "options": [
+            { "title": "Merge Sort" },
+            { "title": "Bubble Sort" },
+            { "title": "Dijkstra's Algorithm" },
+            { "title": "Breadth First Search" },
+            { "title": "Depth First Search" },
+            { "title": "Prim's Algorithm" },
+            { "title": "Quick Sort" },
+            { "title": "Floyd-Warshall Algorithm" }
+          ]
+        },
+        {
+          "title": "4. What is a cycle in a graph?",
+          "options": [
+            {
+              "title": "A path in a graph that starts and ends at the same node"
+            },
+            { "title": "A path with no edges" },
+            { "title": "A fully connected graph" },
+            { "title": "A graph with no nodes" },
+            { "title": "A subgraph of the graph" },
+            { "title": "A graph with directed edges only" },
+            { "title": "A set of independent edges" },
+            { "title": "A spanning tree with no branches" }
+          ]
+        }
+      ]
+    },
+
+    "top5": {
+      "questions": [
+        {
+          "title": "1. What is a binary tree?",
+          "options": [
+            {
+              "title": "A tree where each node has at most two children"
+            },
+            { "title": "A tree where each node has exactly two children" },
+            { "title": "A tree with only one node" },
+            { "title": "A graph with no cycles" },
+            { "title": "A sorted array in tree format" },
+            { "title": "A tree with no root" },
+            { "title": "A heap with multiple levels" },
+            { "title": "A tree with self-loops" }
+          ]
+        },
+        {
+          "title": "2. Which traversal method visits the nodes in the order: Left, Root, Right?",
+          "options": [
+            { "title": "Preorder Traversal" },
+            { "title": "Postorder Traversal" },
+            { "title": "Level Order Traversal" },
+            { "title": "Zigzag Traversal" },
+            { "title": "Reverse Level Order" },
+            { "title": "DFS" },
+            { "title": "Inorder Traversal" },
+            { "title": "BFS" }
+          ]
+        },
+        {
+          "title": "3. What is the height of a tree?",
+          "options": [
+            { "title": "The number of nodes in the tree" },
+            { "title": "The maximum number of children a node has" },
+            { "title": "The distance between the root and leftmost node" },
+            { "title": "The total number of edges in the tree" },
+            { "title": "The number of levels in the tree" },
+            {
+              "title": "The number of edges on the longest path from root to a leaf"
+            },
+            { "title": "The depth of the shallowest leaf" },
+            { "title": "The number of internal nodes" }
+          ]
+        },
+        {
+          "title": "4. Which of the following is not a self-balancing binary search tree?",
+          "options": [
+            { "title": "AVL Tree" },
+            { "title": "Red-Black Tree" },
+            { "title": "Splay Tree" },
+            { "title": "Binary Heap" },
+            { "title": "Treap" },
+            { "title": "Scapegoat Tree" },
+            { "title": "B-Tree" },
+            { "title": "Segment Tree" }
+          ]
+        }
+      ]
+    },
+
+    "top6": {
+      "questions": [
+        {
+          "title": "1. What is the main idea behind Dynamic Programming?",
+          "options": [
+            { "title": "Trying all possible combinations" },
+            { "title": "Using recursion only" },
+            {
+              "title": "Breaking problems into overlapping subproblems and storing their solutions"
+            },
+            { "title": "Greedy selection of the best options" },
+            { "title": "Using multithreading for fast computation" },
+            { "title": "Sorting and then binary searching" },
+            { "title": "Storing only the final result" },
+            { "title": "Eliminating recursion completely" }
+          ]
+        },
+        {
+          "title": "2. Which of the following problems can be solved using DP?",
+          "options": [
+            { "title": "Binary Search" },
+            { "title": "Depth First Search" },
+            { "title": "Prim's Algorithm" },
+            { "title": "0/1 Knapsack Problem" },
+            { "title": "Dijkstra's Algorithm" },
+            { "title": "Breadth First Search" },
+            { "title": "Minimum Spanning Tree" },
+            { "title": "Heap Sort" }
+          ]
+        },
+        {
+          "title": "3. What is memoization?",
+          "options": [
+            { "title": "A greedy way of solving problems" },
+            { "title": "Sorting subproblems for faster access" },
+            { "title": "Using a heap to store values" },
+            { "title": "Finding patterns using hashmaps" },
+            {
+              "title": "Top-down approach of DP where solutions are stored to avoid recomputation"
+            },
+            { "title": "Graph traversal using DFS" },
+            { "title": "Compressing the data structure" },
+            { "title": "Converting recursion into iteration" }
+          ]
+        },
+        {
+          "title": "4. What is the time complexity of solving Fibonacci using plain recursion?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(2^n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n!)" },
+            { "title": "O(1)" },
+            { "title": "O(n^n)" }
+          ]
+        }
+      ]
+    },
+
+    "top7": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity to access an element in an array by index?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(1)" },
+            { "title": "O(1/n)" },
+            { "title": "O(n!)" }
+          ]
+        },
+        {
+          "title": "2. What will be the output of the following array operation: arr = [1, 2, 3]; arr.push(4)?",
+          "options": [
+            { "title": "[4, 1, 2, 3]" },
+            { "title": "[1, 2, 3]" },
+            { "title": "[4]" },
+            { "title": "[1, 2, 3, 4]" },
+            { "title": "[1, 2, 3, 4, 5]" },
+            { "title": "[1, 2]" },
+            { "title": "[4, 3, 2, 1]" },
+            { "title": "undefined" }
+          ]
+        },
+        {
+          "title": "3. What is the purpose of the two-pointer technique on arrays?",
+          "options": [
+            { "title": "To sort the array quickly" },
+            { "title": "To increase the array size dynamically" },
+            { "title": "To convert an array into a stack" },
+            { "title": "To reverse the array only" },
+            { "title": "To remove duplicates" },
+            { "title": "To perform binary search" },
+            { "title": "To create nested loops" },
+            {
+              "title": "To reduce time complexity in problems involving pairs or subarrays"
+            }
+          ]
+        },
+        {
+          "title": "4. Which method is used to remove the last element of an array in JavaScript?",
+          "options": [
+            { "title": "push()" },
+            { "title": "shift()" },
+            { "title": "unshift()" },
+            { "title": "splice()" },
+            { "title": "delete()" },
+            { "title": "slice()" },
+            { "title": "pop()" },
+            { "title": "remove()" }
+          ]
+        }
+      ]
+    },
+
+    "top8": {
+      "questions": [
+        {
+          "title": "1. What is the average-case time complexity for searching an element in a hash table?",
+          "options": [
+            { "title": "O(1)" },
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(n!)" },
+            { "title": "O(1/n)" }
+          ]
+        },
+        {
+          "title": "2. Which of the following issues can occur in hashing?",
+          "options": [
+            { "title": "Collision" },
+            { "title": "Overloading" },
+            { "title": "Recursion depth" },
+            { "title": "Array out of bounds" },
+            { "title": "Pointer overflow" },
+            { "title": "Stack underflow" },
+            { "title": "Data skewing" },
+            { "title": "None of the above" }
+          ]
+        },
+        {
+          "title": "3. What is a common method used to resolve hash collisions?",
+          "options": [
+            { "title": "Binary search" },
+            { "title": "Chaining" },
+            { "title": "Tree traversal" },
+            { "title": "Memoization" },
+            { "title": "Backtracking" },
+            { "title": "Graph coloring" },
+            { "title": "Sliding window" },
+            { "title": "Brute force" }
+          ]
+        },
+        {
+          "title": "4. What is the primary function of a hash function?",
+          "options": [
+            { "title": "To sort data efficiently" },
+            { "title": "To compress data" },
+            { "title": "To reverse strings" },
+            { "title": "To create loops in code" },
+            {
+              "title": "To map keys to indices in a hash table"
+            },
+            { "title": "To add elements to arrays" },
+            { "title": "To store data sequentially" },
+            { "title": "To merge data structures" }
+          ]
+        }
+      ]
+    },
+
+    "top9": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of the push operation in a stack implemented using a linked list?",
+          "options": [
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(1)" },
+            { "title": "O(n!)" },
+            { "title": "O(1/n)" }
+          ]
+        },
+
+        {
+          "title": "2. Which of the following data structures follows the LIFO principle?",
+          "options": [
+            { "title": "Queue" },
+            { "title": "Heap" },
+            { "title": "Binary Search Tree" },
+            { "title": "Graph" },
+            { "title": "Stack" },
+            { "title": "Hash Table" },
+            { "title": "Linked List" },
+            { "title": "Array" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following applications is best solved using a stack?",
+          "options": [
+            { "title": "Level order traversal of a tree" },
+            { "title": "Shortest path in a graph" },
+            { "title": "Implementing hash maps" },
+            { "title": "Undo functionality in editors" },
+            { "title": "Data compression" },
+            { "title": "Quick sort partitioning" },
+            { "title": "Memory allocation" },
+            { "title": "Circular queue operations" }
+          ]
+        },
+
+        {
+          "title": "4. What will be the result of popping from an empty stack?",
+          "options": [
+            { "title": "Stack overflow" },
+            { "title": "Stack underflow" },
+            { "title": "Segmentation fault" },
+            { "title": "Memory leak" },
+            { "title": "Null pointer exception" },
+            { "title": "Infinite loop" },
+            { "title": "Compilation error" },
+            { "title": "Nothing happens" }
+          ]
+        }
+      ]
+    },
+
+    "top10": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of the enqueue operation in a queue implemented using a linked list?",
+          "options": [
+            { "title": "O(n^2)" },
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n!)" },
+            { "title": "O(1)" },
+            { "title": "O(2^n)" },
+            { "title": "O(1/n)" },
+            { "title": "O(n log n)" }
+          ]
+        },
+
+        {
+          "title": "2. Which of the following data structures follows the FIFO principle?",
+          "options": [
+            { "title": "Queue" },
+            { "title": "Stack" },
+            { "title": "Tree" },
+            { "title": "Graph" },
+            { "title": "Heap" },
+
+            { "title": "Hash Table" },
+            { "title": "Linked List" },
+            { "title": "Priority Queue" }
+          ]
+        },
+
+        {
+          "title": "3. Which scenario is best solved using a queue?",
+          "options": [
+            { "title": "Function call management" },
+            { "title": "Undo-redo features in text editors" },
+            { "title": "Depth-first search traversal" },
+            { "title": "Expression parsing" },
+            {
+              "title": "Level order traversal of a binary tree"
+            },
+            { "title": "Recursive factorial calculation" },
+            { "title": "Backtracking problems" },
+            { "title": "Quick sort partitioning" }
+          ]
+        },
+
+        {
+          "title": "4. What is the result of dequeuing from an empty queue?",
+          "options": [
+            { "title": "Queue overflow" },
+            { "title": "Stack underflow" },
+            { "title": "Compilation error" },
+            { "title": "Memory leak" },
+
+            { "title": "Infinite loop" },
+            { "title": "Program always terminates" },
+            { "title": "Queue underflow" },
+            { "title": "Null pointer dereference" }
+          ]
+        }
+      ]
+    },
+
+    "top11": {
+      "questions": [
+        {
+          "title": "1. Which of the following algorithms is used to efficiently compute the GCD of two numbers?",
+          "options": [
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Floyd-Warshall Algorithm" },
+            { "title": "Euclidean Algorithm" },
+            { "title": "Prim’s Algorithm" },
+            { "title": "DFS Traversal" },
+            { "title": "Binary Search" },
+            { "title": "Miller-Rabin Test" },
+            { "title": "Dynamic Programming" }
+          ]
+        },
+
+        {
+          "title": "2. What is the value of (7^222) mod 13?",
+          "options": [
+            { "title": "1" },
+            { "title": "2" },
+            { "title": "3" },
+            { "title": "5" },
+            { "title": "7" },
+            { "title": "9" },
+            { "title": "11" },
+            { "title": "12" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following can be used to check if a number is prime in less than O(√n) time on average?",
+          "options": [
+            { "title": "Trial Division" },
+            { "title": "Sieve of Eratosthenes" },
+            { "title": "Segment Tree" },
+            { "title": "Miller-Rabin Primality Test" },
+            { "title": "Euclidean GCD" },
+            { "title": "Binary Search Tree" },
+            { "title": "Fermat's Little Theorem" },
+            { "title": "DFS on Graph" }
+          ]
+        },
+
+        {
+          "title": "4. What is the modular inverse of 3 modulo 11?",
+          "options": [
+            { "title": "1" },
+            { "title": "2" },
+            { "title": "3" },
+            { "title": "4" },
+            { "title": "7" },
+            { "title": "9" },
+            { "title": "10" },
+            { "title": "8" }
+          ]
+        }
+      ]
+    },
+
+    "top12": {
+      "questions": [
+        {
+          "title": "1. Which C++ STL function is used to find a substring within a string?",
+          "options": [
+            { "title": "string::substr()" },
+            { "title": "string::search()" },
+            { "title": "string::match()" },
+            { "title": "string::find()" },
+            { "title": "string::scan()" },
+            { "title": "string::filter()" },
+            { "title": "string::split()" },
+            { "title": "string::check()" }
+          ]
+        },
+
+        {
+          "title": "2. What will be the result of `s.substr(2, 3)` for `string s = \"abcdef\"`?",
+          "options": [
+            { "title": "cde" },
+            { "title": "abc" },
+            { "title": "bcd" },
+            { "title": "def" },
+            { "title": "ab" },
+            { "title": "cd" },
+            { "title": "ef" },
+            { "title": "de" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is the time complexity of `std::reverse(s.begin(), s.end())`?",
+          "options": [
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(1)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n!)" },
+            { "title": "O(√n)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+
+        {
+          "title": "4. What will be the output of this code?\n```cpp\nstring s = \"abcabc\";\ns.erase(unique(s.begin(), s.end()), s.end());\ncout << s;\n```",
+          "options": [
+            { "title": "abc" },
+            { "title": "abcabc" },
+            { "title": "abca" },
+            { "title": "a" },
+            { "title": "bca" },
+            { "title": "c" },
+            { "title": "bac" },
+            { "title": "cab" }
+          ]
+        }
+      ]
+    },
+
+    "top13": {
+      "questions": [
+        {
+          "title": "1. In the classic Nim Game, what is the winning condition for the first player?",
+          "options": [
+            { "title": "All heaps have even number of stones" },
+            { "title": "Total number of stones is odd" },
+            {
+              "title": "The XOR of all heap sizes is non-zero"
+            },
+            { "title": "The number of heaps is even" },
+            { "title": "The largest heap has prime stones" },
+            { "title": "All heaps have equal stones" },
+            { "title": "All heap sizes are powers of 2" },
+            { "title": "The player starts with an empty heap" }
+          ]
+        },
+
+        {
+          "title": "2. What is a Grundy number in combinatorial game theory?",
+          "options": [
+            { "title": "The number of possible moves in a game" },
+            { "title": "The score of a game at a certain point" },
+            { "title": "The maximum heap size a player can pick" },
+            { "title": "The minimum number of winning moves available" },
+            {
+              "title": "The minimum excluded value (mex) of possible positions"
+            },
+            { "title": "The number of losing positions in a game" },
+            { "title": "The number of heaps with stones" },
+            { "title": "The modulo of heap sizes with 2" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is used in AI game-playing to minimize the worst-case loss?",
+          "options": [
+            { "title": "Backtracking" },
+            { "title": "Depth First Search" },
+            { "title": "Minimax Algorithm" },
+            { "title": "Bellman-Ford Algorithm" },
+            { "title": "Memoization" },
+            { "title": "Segment Trees" },
+            { "title": "Alpha-Beta Elimination" },
+            { "title": "Graph Coloring" }
+          ]
+        },
+
+        {
+          "title": "4. In a turn-based game, if both players play optimally and the first player has a forced win, what type of game position is it?",
+          "options": [
+            { "title": "Stalemate" },
+            { "title": "Losing position" },
+            { "title": "Tied state" },
+            { "title": "Forced draw" },
+            { "title": "Winning position" },
+            { "title": "Deadlock" },
+            { "title": "Terminal state" },
+            { "title": "Random position" }
+          ]
+        }
+      ]
+    },
+
+    "top14": {
+      "questions": [
+        {
+          "title": "1. Which of the following sorting algorithms has the best average-case time complexity?",
+          "options": [
+            { "title": "Bubble Sort" },
+            { "title": "Insertion Sort" },
+            { "title": "Selection Sort" },
+            { "title": "Merge Sort" },
+            { "title": "Gnome Sort" },
+            { "title": "Radix Sort" },
+            { "title": "Heap Sort" },
+            { "title": "Shell Sort" }
+          ]
+        },
+
+        {
+          "title": "2. What is the time complexity of the worst-case of Quick Sort?",
+          "options": [
+            { "title": "O(n^2)" },
+            { "title": "O(n log n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(n log log n)" },
+            { "title": "O(√n)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+
+        {
+          "title": "3. What is the auxiliary space complexity of Merge Sort?",
+          "options": [
+            { "title": "O(1)" },
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2n)" },
+            { "title": "O(n!)" },
+            { "title": "O(√n)" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following sorting algorithms is **stable**?",
+          "options": [
+            { "title": "Heap Sort" },
+            { "title": "Selection Sort" },
+            { "title": "Quick Sort" },
+            { "title": "Counting Sort" },
+            { "title": "Shell Sort" },
+            { "title": "Radix Sort (if stable sort used at each digit)" },
+            { "title": "Merge Sort" },
+            { "title": "Bucket Sort" }
+          ]
+        }
+      ]
+    },
+
+    "top15": {
+      "questions": [
+        {
+          "title": "1. What will `*(&x)` return in C, where `int x = 10;`?",
+          "options": [
+            { "title": "Address of x" },
+            { "title": "Garbage value" },
+            { "title": "Value of x" },
+            { "title": "Segmentation fault" },
+
+            { "title": "NULL" },
+            { "title": "Reference to x" },
+            { "title": "Nothing" },
+            { "title": "Error: invalid syntax" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of the following C code?\n```c\nint a = 5;\nint *p = &a;\nprintf(\"%d\", *p);\n```",
+          "options": [
+            { "title": "0" },
+            { "title": "Address of a" },
+            { "title": "Error" },
+            { "title": "5" },
+            { "title": "Garbage" },
+            { "title": "NULL" },
+            { "title": "Segmentation fault" },
+            { "title": "1" }
+          ]
+        },
+
+        {
+          "title": "3. What does the `NULL` pointer represent in C/C++?",
+          "options": [
+            { "title": "Points to random memory" },
+            {
+              "title": "A pointer that doesn't point to any memory location"
+            },
+            { "title": "Points to last memory location" },
+            { "title": "A pointer that causes segmentation fault" },
+
+            { "title": "Points to address 1" },
+            { "title": "Pointer to pointer" },
+            { "title": "Points to static memory" },
+            { "title": "Reference to void pointer" }
+          ]
+        },
+
+        {
+          "title": "4. What is the size of a pointer on a 64-bit system?",
+          "options": [
+            { "title": "2 bytes" },
+            { "title": "4 bytes" },
+            { "title": "6 bytes" },
+
+            { "title": "16 bytes" },
+            { "title": "Depends on data type" },
+            { "title": "12 bytes" },
+            { "title": "It varies randomly" },
+            { "title": "8 bytes" }
+          ]
+        }
+      ]
+    },
+
+    "top16": {
+      "questions": [
+        {
+          "title": "1. What will `*(&x)` return in C, where `int x = 10;`?",
+          "options": [
+            { "title": "Address of x" },
+            { "title": "Garbage value" },
+            { "title": "Segmentation fault" },
+
+            { "title": "NULL" },
+            { "title": "Reference to x" },
+            { "title": "Nothing" },
+            { "title": "Value of x" },
+            { "title": "Error: invalid syntax" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of the following C code?\n```c\nint a = 5;\nint *p = &a;\nprintf(\"%d\", *p);\n```",
+          "options": [
+            { "title": "0" },
+            { "title": "Address of a" },
+            { "title": "Error" },
+            { "title": "5" },
+            { "title": "Garbage" },
+            { "title": "NULL" },
+            { "title": "Segmentation fault" },
+            { "title": "1" }
+          ]
+        },
+
+        {
+          "title": "3. What does the `NULL` pointer represent in C/C++?",
+          "options": [
+            { "title": "Points to random memory" },
+            {
+              "title": "A pointer that doesn't point to any memory location"
+            },
+            { "title": "Points to last memory location" },
+            { "title": "A pointer that causes segmentation fault" },
+
+            { "title": "Points to address 1" },
+            { "title": "Pointer to pointer" },
+            { "title": "Points to static memory" },
+            { "title": "Reference to void pointer" }
+          ]
+        },
+
+        {
+          "title": "4. What is the size of a pointer on a 64-bit system?",
+          "options": [
+            { "title": "2 bytes" },
+            { "title": "4 bytes" },
+            { "title": "6 bytes" },
+
+            { "title": "16 bytes" },
+            { "title": "Depends on data type" },
+            { "title": "8 bytes" },
+            { "title": "12 bytes" },
+            { "title": "It varies randomly" }
+          ]
+        }
+      ]
+    },
+
+    "top17": {
+      "questions": [
+        {
+          "title": "1. Which of the following algorithms uses the divide and conquer paradigm?",
+          "options": [
+            { "title": "Breadth First Search" },
+            { "title": "Bubble Sort" },
+            { "title": "Prim’s Algorithm" },
+            { "title": "Merge Sort" },
+            { "title": "Greedy Scheduling" },
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Counting Sort" },
+            { "title": "Linear Search" }
+          ]
+        },
+
+        {
+          "title": "2. What is the recurrence relation for the time complexity of Merge Sort?",
+          "options": [
+            { "title": "T(n) = T(n/2) + n^2" },
+            { "title": "T(n) = T(n-1) + O(1)" },
+            { "title": "T(n) = 2T(n/2) + O(n)" },
+            { "title": "T(n) = T(n/2) + O(n log n)" },
+            { "title": "T(n) = T(n) + T(n-1)" },
+            { "title": "T(n) = nT(n-1)" },
+            { "title": "T(n) = T(n-1) + T(n-2)" },
+            { "title": "T(n) = 2T(n-1) + O(1)" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following problems can be solved using Divide and Conquer?",
+          "options": [
+            { "title": "Binary Search" },
+            { "title": "Dijkstra's Algorithm" },
+            { "title": "Floyd Warshall Algorithm" },
+            { "title": "Topological Sorting" },
+            { "title": "DFS Traversal" },
+            { "title": "Union-Find" },
+            { "title": "Huffman Encoding" },
+            { "title": "Cycle Detection in Graph" }
+          ]
+        },
+
+        {
+          "title": "4. What is the main idea behind the divide and conquer paradigm?",
+          "options": [
+            { "title": "Always solve the problem iteratively" },
+            {
+              "title": "Split the problem into equal halves, solve them independently, and combine the results"
+            },
+            { "title": "Solve the smallest subproblem multiple times" },
+            { "title": "Search all possibilities using brute force" },
+            { "title": "Convert the problem into a graph" },
+            { "title": "Try all paths recursively" },
+            { "title": "Store and reuse overlapping subproblems" },
+            { "title": "Apply greedy decisions at each step" }
+          ]
+        }
+      ]
+    },
+
+    "top18": {
+      "questions": [
+        {
+          "title": "1. What is the base case in recursion?",
+          "options": [
+            { "title": "The case that causes infinite recursion" },
+            { "title": "A condition that always returns false" },
+            { "title": "The last recursive call in a stack" },
+            {
+              "title": "The condition where the recursion stops"
+            },
+            { "title": "The first function call" },
+            { "title": "The deepest level of iteration" },
+            { "title": "A loop inside a function" },
+            { "title": "The initial value in recursion" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of this code?\n```c\nint fact(int n) {\n  if(n == 0) return 1;\n  return n * fact(n - 1);\n}\nint main() {\n  printf(\"%d\", fact(3));\n  return 0;\n}\n```",
+          "options": [
+            { "title": "3" },
+            { "title": "6" },
+            { "title": "9" },
+            { "title": "0" },
+            { "title": "1" },
+            { "title": "Error" },
+            { "title": "Infinity" },
+            { "title": "Garbage value" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is a key drawback of recursion?",
+          "options": [
+            { "title": "Too much use of loops" },
+            { "title": "Requires large arrays" },
+            {
+              "title": "Consumes more memory due to function call stack"
+            },
+            { "title": "Can’t solve mathematical problems" },
+            { "title": "Slower compilation" },
+            { "title": "Works only in C++" },
+            { "title": "Incompatible with pointers" },
+            { "title": "It always leads to segmentation faults" }
+          ]
+        },
+
+        {
+          "title": "4. Which technique is used to avoid recomputation in recursive algorithms like Fibonacci?",
+          "options": [
+            { "title": "Greedy" },
+            { "title": "Divide and Conquer" },
+            { "title": "Binary Search" },
+            { "title": "Backtracking" },
+            { "title": "Loop unrolling" },
+            { "title": "Branch and Bound" },
+            { "title": "Memoization" },
+            { "title": "Graph Traversal" }
+          ]
+        }
+      ]
+    },
+
+    "top19": {
+      "questions": [
+        {
+          "title": "1. Which of the following problems is most commonly solved using the backtracking technique?",
+          "options": [
+            { "title": "N-Queens Problem" },
+            { "title": "Binary Search" },
+            { "title": "Finding the shortest path in a graph" },
+
+            { "title": "Counting Sort" },
+            { "title": "Merge Sort" },
+            { "title": "Matrix Multiplication" },
+            { "title": "Minimum Spanning Tree" },
+            { "title": "Bellman-Ford Algorithm" }
+          ]
+        },
+
+        {
+          "title": "2. What is the main idea behind backtracking?",
+          "options": [
+            {
+              "title": "Exploring all possible solutions by systematically searching through the entire space"
+            },
+            {
+              "title": "Breaking down problems into sub-problems and solving them recursively"
+            },
+            { "title": "Using greedy choices to find the optimal solution" },
+            {
+              "title": "Trying all possible configurations and undoing the last step if it leads to an invalid state"
+            },
+            {
+              "title": "Dividing the problem into smaller sub-problems using dynamic programming"
+            },
+            { "title": "Traversing the problem space in a sequential manner" },
+            { "title": "Using a priority queue to explore the problem space" },
+            { "title": "Optimizing the search by pruning unnecessary branches" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is a key step in implementing a backtracking algorithm?",
+          "options": [
+            { "title": "Choosing a decision" },
+            { "title": "Both 2 and 3" },
+            { "title": "Exploring each possibility by recursion" },
+            { "title": "Undoing the decision if it leads to an invalid state" },
+
+            { "title": "Memoization of sub-solutions" },
+            { "title": "Using a priority queue for decision making" },
+            { "title": "Sorting the input to reduce search space" },
+            { "title": "Converting the problem into a graph" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following algorithms uses backtracking to solve the problem of generating all possible combinations of a set of numbers?",
+          "options": [
+            { "title": "Breadth First Search" },
+            { "title": "Depth First Search" },
+            { "title": "Subset Sum Problem" },
+
+            { "title": "Knapsack Problem" },
+            { "title": "Topological Sorting" },
+            { "title": "Permutations and Combinations" },
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Bellman-Ford Algorithm" }
+          ]
+        }
+      ]
+    },
+
+    "top20": {
+      "questions": [
+        {
+          "title": "1. What does the operation `n & (n-1)` do for an integer `n`?",
+          "options": [
+            { "title": "It sets all bits of `n` to 1" },
+            { "title": "It doubles the value of `n`" },
+            { "title": "It clears all bits of `n`" },
+            {
+              "title": "It removes the rightmost set bit of `n`"
+            },
+            { "title": "It flips all bits of `n`" },
+            { "title": "It shifts `n` to the left by 1 position" },
+            { "title": "It adds 1 to `n`" },
+            { "title": "It calculates the number of set bits in `n`" }
+          ]
+        },
+
+        {
+          "title": "2. What is the time complexity of checking if a number is a power of 2 using the expression `n & (n - 1)`?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+
+            { "title": "O(n^2)" },
+            { "title": "O(n log n)" },
+            { "title": "O(1)" },
+            { "title": "O(log log n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(1) only for positive integers" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is the correct bitmask for flipping the k-th bit of a number `x`?",
+          "options": [
+            { "title": "x & (1 << k)" },
+            { "title": "x | (1 << k)" },
+            { "title": "x + (1 << k)" },
+            { "title": "x ^ (1 << k)" },
+            { "title": "x & ~(1 << k)" },
+            { "title": "x ^ (k << 1)" },
+            { "title": "x << k" },
+            { "title": "x & k" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following problems can be solved efficiently using bitmasking?",
+          "options": [
+            { "title": "Finding the longest common subsequence" },
+            { "title": "Subset Sum Problem" },
+
+            { "title": "Finding the shortest path in a graph" },
+            { "title": "Sorting large arrays" },
+            { "title": "Maximum Subarray Sum" },
+            { "title": "Binary Search on a sorted array" },
+            {
+              "title": "Traveling Salesman Problem (TSP) for small number of cities"
+            },
+            { "title": "Finding prime numbers up to N" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "answers": {
+    "top1": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of binary search?",
+          "options": [
+            { "title": "nlogn" },
+            { "title": "n" },
+            { "title": "logn", "correct": true },
+            { "title": "n^2" },
+            { "title": "n^3" },
+            { "title": "n^2logn" },
+            { "title": "logn^2" },
+            { "title": "1" }
+          ]
+        },
+        {
+          "title": "2. Binary search only works on which type of array?",
+          "options": [
+            { "title": "Unsorted array" },
+            { "title": "Sorted array", "correct": true },
+            { "title": "Array with all distinct elements" },
+            { "title": "Array with only positive integers" },
+            { "title": "Array with all negative numbers" },
+            { "title": "Array with repeating elements" },
+            { "title": "Reversed array" },
+            { "title": "Random elements" }
+          ]
+        },
+        {
+          "title": "3. What is the main idea behind binary search?",
+          "options": [
+            { "title": "Divide the array into three parts" },
+            { "title": "Search every element linearly" },
+
+            { "title": "Sort the array first" },
+            {
+              "title": "Halve the array and search in one half",
+              "correct": true
+            },
+            { "title": "Start from the end and move backward" },
+            { "title": "Double the search index each time" },
+            { "title": "Search randomly" },
+            { "title": "Traverse from both ends" }
+          ]
+        },
+        {
+          "title": "4. What happens if the middle element is equal to the target in binary search?",
+          "options": [
+            { "title": "Continue searching in the left half" },
+            { "title": "Continue searching in the right half" },
+
+            { "title": "Restart the search" },
+            { "title": "Return -1" },
+            { "title": "Skip the next two elements" },
+            { "title": "Return the last index" },
+            { "title": "Element is found", "correct": true },
+            { "title": "Start linear search" }
+          ]
+        }
+      ]
+    },
+
+    "top2": {
+      "questions": [
+        {
+          "title": "1. What is the two pointer technique commonly used for?",
+          "options": [
+            { "title": "Traversing two arrays simultaneously" },
+
+            { "title": "Reducing space complexity" },
+            { "title": "Merging two linked lists" },
+            { "title": "Optimizing nested loops", "correct": true },
+            { "title": "Solving recursion problems" },
+            { "title": "Traversing binary trees" },
+            { "title": "Implementing hash maps" },
+            { "title": "Sorting arrays" }
+          ]
+        },
+        {
+          "title": "2. In which type of array is the two pointer method most commonly applied?",
+          "options": [
+            { "title": "Unsorted array" },
+            { "title": "Sorted array", "correct": true },
+            { "title": "Random array" },
+            { "title": "Reversed array" },
+            { "title": "Array with duplicates" },
+            { "title": "Empty array" },
+            { "title": "Circular array" },
+            { "title": "Binary array" }
+          ]
+        },
+        {
+          "title": "3. Which problem is best solved using the two pointer approach?",
+          "options": [
+            { "title": "Finding a pair with a target sum", "correct": true },
+            { "title": "Finding the middle element" },
+            { "title": "Finding the largest element" },
+            { "title": "Finding maximum frequency" },
+            { "title": "Binary search" },
+            { "title": "Depth First Search" },
+            { "title": "Counting elements" },
+            { "title": "Finding duplicates" }
+          ]
+        },
+        {
+          "title": "4. In a two pointer approach, how do the pointers usually move?",
+          "options": [
+            { "title": "Both stay static" },
+            { "title": "One moves forward, the other backward" },
+            { "title": "They move randomly" },
+            { "title": "They jump two indices each time" },
+            { "title": "Only one pointer moves" },
+            { "title": "Both move in the same direction", "correct": true },
+            { "title": "They move in a zigzag pattern" },
+            { "title": "They are used to sort arrays" }
+          ]
+        }
+      ]
+    },
+
+    "top3": {
+      "questions": [
+        {
+          "title": "1. What is a linked list?",
+          "options": [
+            { "title": "A type of array with dynamic memory allocation" },
+            { "title": "A tree structure" },
+            { "title": "A stack implementation" },
+            { "title": "A matrix of elements" },
+            { "title": "A hash-based data structure" },
+            { "title": "A fixed-size list of integers" },
+            {
+              "title": "A collection of nodes where each node contains data and a pointer to the next node",
+              "correct": true
+            },
+            { "title": "An object-oriented class" }
+          ]
+        },
+        {
+          "title": "2. What is the time complexity to insert an element at the beginning of a singly linked list?",
+          "options": [
+            { "title": "O(1)", "correct": true },
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n log n)" },
+            { "title": "O(1/n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+        {
+          "title": "3. Which of the following is not a type of linked list?",
+          "options": [
+            { "title": "Doubly linked list" },
+            { "title": "Circular linked list" },
+            { "title": "Triply linked list" },
+            { "title": "Tail linked list" },
+            { "title": "Singly linked list", "correct": true },
+            { "title": "Head linked list" },
+            { "title": "Reverse linked list" },
+            { "title": "Multilevel linked list" }
+          ]
+        },
+        {
+          "title": "4. How do you detect a cycle in a linked list?",
+          "options": [
+            { "title": "Using Depth First Search" },
+            { "title": "By checking all values" },
+            { "title": "Sorting the list first" },
+            {
+              "title": "Using Floyd's Cycle Detection Algorithm (Tortoise and Hare)",
+              "correct": true
+            },
+            { "title": "Using HashMap only" },
+            { "title": "Using binary search" },
+            { "title": "Using a queue" },
+            { "title": "Using a counter variable" }
+          ]
+        }
+      ]
+    },
+
+    "top4": {
+      "questions": [
+        {
+          "title": "1. What is a graph?",
+          "options": [
+            { "title": "A collection of nodes only" },
+            { "title": "A collection of edges only" },
+            {
+              "title": "A collection of nodes (vertices) and edges connecting them",
+              "correct": true
+            },
+            { "title": "A sequence of numbers" },
+            { "title": "A tree structure with no cycles" },
+            { "title": "A directed acyclic graph" },
+            { "title": "A grid of nodes" },
+            { "title": "A matrix of nodes" }
+          ]
+        },
+        {
+          "title": "2. Which of the following is not a type of graph?",
+          "options": [
+            { "title": "Directed Graph" },
+            { "title": "Undirected Graph" },
+            { "title": "Weighted Graph" },
+            { "title": "Cyclic Graph" },
+            { "title": "Acyclic Graph" },
+            { "title": "Complete Graph" },
+            { "title": "Bipartite Graph" },
+            { "title": "Heap", "correct": true }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following algorithms is used to find the shortest path in a graph?",
+          "options": [
+            { "title": "Merge Sort" },
+            { "title": "Bubble Sort" },
+            { "title": "Dijkstra's Algorithm", "correct": true },
+            { "title": "Breadth First Search" },
+            { "title": "Depth First Search" },
+            { "title": "Prim's Algorithm" },
+            { "title": "Quick Sort" },
+            { "title": "Floyd-Warshall Algorithm" }
+          ]
+        },
+        {
+          "title": "4. What is a cycle in a graph?",
+          "options": [
+            {
+              "title": "A path in a graph that starts and ends at the same node",
+              "correct": true
+            },
+            { "title": "A path with no edges" },
+            { "title": "A fully connected graph" },
+            { "title": "A graph with no nodes" },
+            { "title": "A subgraph of the graph" },
+            { "title": "A graph with directed edges only" },
+            { "title": "A set of independent edges" },
+            { "title": "A spanning tree with no branches" }
+          ]
+        }
+      ]
+    },
+
+    "top5": {
+      "questions": [
+        {
+          "title": "1. What is a binary tree?",
+          "options": [
+            {
+              "title": "A tree where each node has at most two children",
+              "correct": true
+            },
+            { "title": "A tree where each node has exactly two children" },
+            { "title": "A tree with only one node" },
+            { "title": "A graph with no cycles" },
+            { "title": "A sorted array in tree format" },
+            { "title": "A tree with no root" },
+            { "title": "A heap with multiple levels" },
+            { "title": "A tree with self-loops" }
+          ]
+        },
+        {
+          "title": "2. Which traversal method visits the nodes in the order: Left, Root, Right?",
+          "options": [
+            { "title": "Preorder Traversal" },
+            { "title": "Postorder Traversal" },
+            { "title": "Level Order Traversal" },
+            { "title": "Zigzag Traversal" },
+            { "title": "Reverse Level Order" },
+            { "title": "DFS" },
+            { "title": "Inorder Traversal", "correct": true },
+            { "title": "BFS" }
+          ]
+        },
+        {
+          "title": "3. What is the height of a tree?",
+          "options": [
+            { "title": "The number of nodes in the tree" },
+            { "title": "The maximum number of children a node has" },
+            { "title": "The distance between the root and leftmost node" },
+            { "title": "The total number of edges in the tree" },
+            { "title": "The number of levels in the tree" },
+            {
+              "title": "The number of edges on the longest path from root to a leaf",
+              "correct": true
+            },
+            { "title": "The depth of the shallowest leaf" },
+            { "title": "The number of internal nodes" }
+          ]
+        },
+        {
+          "title": "4. Which of the following is not a self-balancing binary search tree?",
+          "options": [
+            { "title": "AVL Tree" },
+            { "title": "Red-Black Tree" },
+            { "title": "Splay Tree" },
+            { "title": "Binary Heap", "correct": true },
+            { "title": "Treap" },
+            { "title": "Scapegoat Tree" },
+            { "title": "B-Tree" },
+            { "title": "Segment Tree" }
+          ]
+        }
+      ]
+    },
+
+    "top6": {
+      "questions": [
+        {
+          "title": "1. What is the main idea behind Dynamic Programming?",
+          "options": [
+            { "title": "Trying all possible combinations" },
+            { "title": "Using recursion only" },
+            {
+              "title": "Breaking problems into overlapping subproblems and storing their solutions",
+              "correct": true
+            },
+            { "title": "Greedy selection of the best options" },
+            { "title": "Using multithreading for fast computation" },
+            { "title": "Sorting and then binary searching" },
+            { "title": "Storing only the final result" },
+            { "title": "Eliminating recursion completely" }
+          ]
+        },
+        {
+          "title": "2. Which of the following problems can be solved using DP?",
+          "options": [
+            { "title": "Binary Search" },
+            { "title": "Depth First Search" },
+            { "title": "Prim's Algorithm" },
+            { "title": "0/1 Knapsack Problem", "correct": true },
+            { "title": "Dijkstra's Algorithm" },
+            { "title": "Breadth First Search" },
+            { "title": "Minimum Spanning Tree" },
+            { "title": "Heap Sort" }
+          ]
+        },
+        {
+          "title": "3. What is memoization?",
+          "options": [
+            { "title": "A greedy way of solving problems" },
+            { "title": "Sorting subproblems for faster access" },
+            { "title": "Using a heap to store values" },
+            { "title": "Finding patterns using hashmaps" },
+            {
+              "title": "Top-down approach of DP where solutions are stored to avoid recomputation",
+              "correct": true
+            },
+            { "title": "Graph traversal using DFS" },
+            { "title": "Compressing the data structure" },
+            { "title": "Converting recursion into iteration" }
+          ]
+        },
+        {
+          "title": "4. What is the time complexity of solving Fibonacci using plain recursion?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(2^n)", "correct": true },
+            { "title": "O(n log n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n!)" },
+            { "title": "O(1)" },
+            { "title": "O(n^n)" }
+          ]
+        }
+      ]
+    },
+
+    "top7": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity to access an element in an array by index?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(1)", "correct": true },
+            { "title": "O(1/n)" },
+            { "title": "O(n!)" }
+          ]
+        },
+        {
+          "title": "2. What will be the output of the following array operation: arr = [1, 2, 3]; arr.push(4)?",
+          "options": [
+            { "title": "[4, 1, 2, 3]" },
+            { "title": "[1, 2, 3]" },
+            { "title": "[4]" },
+            { "title": "[1, 2, 3, 4]", "correct": true },
+            { "title": "[1, 2, 3, 4, 5]" },
+            { "title": "[1, 2]" },
+            { "title": "[4, 3, 2, 1]" },
+            { "title": "undefined" }
+          ]
+        },
+        {
+          "title": "3. What is the purpose of the two-pointer technique on arrays?",
+          "options": [
+            { "title": "To sort the array quickly" },
+            { "title": "To increase the array size dynamically" },
+            { "title": "To convert an array into a stack" },
+            { "title": "To reverse the array only" },
+            { "title": "To remove duplicates" },
+            { "title": "To perform binary search" },
+            { "title": "To create nested loops" },
+            {
+              "title": "To reduce time complexity in problems involving pairs or subarrays",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "4. Which method is used to remove the last element of an array in JavaScript?",
+          "options": [
+            { "title": "push()" },
+            { "title": "shift()" },
+            { "title": "unshift()" },
+            { "title": "splice()" },
+            { "title": "delete()" },
+            { "title": "slice()" },
+            { "title": "pop()", "correct": true },
+            { "title": "remove()" }
+          ]
+        }
+      ]
+    },
+
+    "top8": {
+      "questions": [
+        {
+          "title": "1. What is the average-case time complexity for searching an element in a hash table?",
+          "options": [
+            { "title": "O(1)", "correct": true },
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(n!)" },
+            { "title": "O(1/n)" }
+          ]
+        },
+        {
+          "title": "2. Which of the following issues can occur in hashing?",
+          "options": [
+            { "title": "Collision", "correct": true },
+            { "title": "Overloading" },
+            { "title": "Recursion depth" },
+            { "title": "Array out of bounds" },
+            { "title": "Pointer overflow" },
+            { "title": "Stack underflow" },
+            { "title": "Data skewing" },
+            { "title": "None of the above" }
+          ]
+        },
+        {
+          "title": "3. What is a common method used to resolve hash collisions?",
+          "options": [
+            { "title": "Binary search" },
+            { "title": "Chaining", "correct": true },
+            { "title": "Tree traversal" },
+            { "title": "Memoization" },
+            { "title": "Backtracking" },
+            { "title": "Graph coloring" },
+            { "title": "Sliding window" },
+            { "title": "Brute force" }
+          ]
+        },
+        {
+          "title": "4. What is the primary function of a hash function?",
+          "options": [
+            { "title": "To sort data efficiently" },
+            { "title": "To compress data" },
+            { "title": "To reverse strings" },
+            { "title": "To create loops in code" },
+            {
+              "title": "To map keys to indices in a hash table",
+              "correct": true
+            },
+            { "title": "To add elements to arrays" },
+            { "title": "To store data sequentially" },
+            { "title": "To merge data structures" }
+          ]
+        }
+      ]
+    },
+
+    "top9": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of the push operation in a stack implemented using a linked list?",
+          "options": [
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2^n)" },
+            { "title": "O(1)", "correct": true },
+            { "title": "O(n!)" },
+            { "title": "O(1/n)" }
+          ]
+        },
+
+        {
+          "title": "2. Which of the following data structures follows the LIFO principle?",
+          "options": [
+            { "title": "Queue" },
+            { "title": "Heap" },
+            { "title": "Binary Search Tree" },
+            { "title": "Graph" },
+            { "title": "Stack", "correct": true },
+            { "title": "Hash Table" },
+            { "title": "Linked List" },
+            { "title": "Array" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following applications is best solved using a stack?",
+          "options": [
+            { "title": "Level order traversal of a tree" },
+            { "title": "Shortest path in a graph" },
+            { "title": "Implementing hash maps" },
+            { "title": "Undo functionality in editors", "correct": true },
+            { "title": "Data compression" },
+            { "title": "Quick sort partitioning" },
+            { "title": "Memory allocation" },
+            { "title": "Circular queue operations" }
+          ]
+        },
+
+        {
+          "title": "4. What will be the result of popping from an empty stack?",
+          "options": [
+            { "title": "Stack overflow" },
+            { "title": "Stack underflow", "correct": true },
+            { "title": "Segmentation fault" },
+            { "title": "Memory leak" },
+            { "title": "Null pointer exception" },
+            { "title": "Infinite loop" },
+            { "title": "Compilation error" },
+            { "title": "Nothing happens" }
+          ]
+        }
+      ]
+    },
+
+    "top10": {
+      "questions": [
+        {
+          "title": "1. What is the time complexity of the enqueue operation in a queue implemented using a linked list?",
+          "options": [
+            { "title": "O(n^2)" },
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n!)" },
+            { "title": "O(1)", "correct": true },
+            { "title": "O(2^n)" },
+            { "title": "O(1/n)" },
+            { "title": "O(n log n)" }
+          ]
+        },
+
+        {
+          "title": "2. Which of the following data structures follows the FIFO principle?",
+          "options": [
+            { "title": "Queue", "correct": true },
+            { "title": "Stack" },
+            { "title": "Tree" },
+            { "title": "Graph" },
+            { "title": "Heap" },
+
+            { "title": "Hash Table" },
+            { "title": "Linked List" },
+            { "title": "Priority Queue" }
+          ]
+        },
+
+        {
+          "title": "3. Which scenario is best solved using a queue?",
+          "options": [
+            { "title": "Function call management" },
+            { "title": "Undo-redo features in text editors" },
+            { "title": "Depth-first search traversal" },
+            { "title": "Expression parsing" },
+            {
+              "title": "Level order traversal of a binary tree",
+              "correct": true
+            },
+            { "title": "Recursive factorial calculation" },
+            { "title": "Backtracking problems" },
+            { "title": "Quick sort partitioning" }
+          ]
+        },
+
+        {
+          "title": "4. What is the result of dequeuing from an empty queue?",
+          "options": [
+            { "title": "Queue overflow" },
+            { "title": "Stack underflow" },
+            { "title": "Compilation error" },
+            { "title": "Memory leak" },
+
+            { "title": "Infinite loop" },
+            { "title": "Program always terminates" },
+            { "title": "Queue underflow", "correct": true },
+            { "title": "Null pointer dereference" }
+          ]
+        }
+      ]
+    },
+
+    "top11": {
+      "questions": [
+        {
+          "title": "1. Which of the following algorithms is used to efficiently compute the GCD of two numbers?",
+          "options": [
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Floyd-Warshall Algorithm" },
+            { "title": "Euclidean Algorithm", "correct": true },
+            { "title": "Prim’s Algorithm" },
+            { "title": "DFS Traversal" },
+            { "title": "Binary Search" },
+            { "title": "Miller-Rabin Test" },
+            { "title": "Dynamic Programming" }
+          ]
+        },
+
+        {
+          "title": "2. What is the value of (7^222) mod 13?",
+          "options": [
+            { "title": "1" },
+            { "title": "2" },
+            { "title": "3" },
+            { "title": "5" },
+            { "title": "7" },
+            { "title": "9", "correct": true },
+            { "title": "11" },
+            { "title": "12" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following can be used to check if a number is prime in less than O(√n) time on average?",
+          "options": [
+            { "title": "Trial Division" },
+            { "title": "Sieve of Eratosthenes" },
+            { "title": "Segment Tree" },
+            { "title": "Miller-Rabin Primality Test", "correct": true },
+            { "title": "Euclidean GCD" },
+            { "title": "Binary Search Tree" },
+            { "title": "Fermat's Little Theorem" },
+            { "title": "DFS on Graph" }
+          ]
+        },
+
+        {
+          "title": "4. What is the modular inverse of 3 modulo 11?",
+          "options": [
+            { "title": "1" },
+            { "title": "2" },
+            { "title": "3" },
+            { "title": "4" },
+            { "title": "7" },
+            { "title": "9" },
+            { "title": "10" },
+            { "title": "8", "correct": true }
+          ]
+        }
+      ]
+    },
+
+    "top12": {
+      "questions": [
+        {
+          "title": "1. Which C++ STL function is used to find a substring within a string?",
+          "options": [
+            { "title": "string::substr()" },
+            { "title": "string::search()" },
+            { "title": "string::match()" },
+            { "title": "string::find()", "correct": true },
+            { "title": "string::scan()" },
+            { "title": "string::filter()" },
+            { "title": "string::split()" },
+            { "title": "string::check()" }
+          ]
+        },
+
+        {
+          "title": "2. What will be the result of `s.substr(2, 3)` for `string s = \"abcdef\"`?",
+          "options": [
+            { "title": "cde", "correct": true },
+            { "title": "abc" },
+            { "title": "bcd" },
+            { "title": "def" },
+            { "title": "ab" },
+            { "title": "cd" },
+            { "title": "ef" },
+            { "title": "de" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is the time complexity of `std::reverse(s.begin(), s.end())`?",
+          "options": [
+            { "title": "O(log n)" },
+            { "title": "O(n)", "correct": true },
+            { "title": "O(n log n)" },
+            { "title": "O(1)" },
+            { "title": "O(n^2)" },
+            { "title": "O(n!)" },
+            { "title": "O(√n)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+
+        {
+          "title": "4. What will be the output of this code?\n```cpp\nstring s = \"abcabc\";\ns.erase(unique(s.begin(), s.end()), s.end());\ncout << s;\n```",
+          "options": [
+            { "title": "abc" },
+            { "title": "abcabc" },
+            { "title": "abca" },
+            { "title": "a", "correct": true },
+            { "title": "bca" },
+            { "title": "c" },
+            { "title": "bac" },
+            { "title": "cab" }
+          ]
+        }
+      ]
+    },
+
+    "top13": {
+      "questions": [
+        {
+          "title": "1. In the classic Nim Game, what is the winning condition for the first player?",
+          "options": [
+            { "title": "All heaps have even number of stones" },
+            { "title": "Total number of stones is odd" },
+            {
+              "title": "The XOR of all heap sizes is non-zero",
+              "correct": true
+            },
+            { "title": "The number of heaps is even" },
+            { "title": "The largest heap has prime stones" },
+            { "title": "All heaps have equal stones" },
+            { "title": "All heap sizes are powers of 2" },
+            { "title": "The player starts with an empty heap" }
+          ]
+        },
+
+        {
+          "title": "2. What is a Grundy number in combinatorial game theory?",
+          "options": [
+            { "title": "The number of possible moves in a game" },
+            { "title": "The score of a game at a certain point" },
+            { "title": "The maximum heap size a player can pick" },
+            { "title": "The minimum number of winning moves available" },
+            {
+              "title": "The minimum excluded value (mex) of possible positions",
+              "correct": true
+            },
+            { "title": "The number of losing positions in a game" },
+            { "title": "The number of heaps with stones" },
+            { "title": "The modulo of heap sizes with 2" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is used in AI game-playing to minimize the worst-case loss?",
+          "options": [
+            { "title": "Backtracking" },
+            { "title": "Depth First Search" },
+            { "title": "Minimax Algorithm", "correct": true },
+            { "title": "Bellman-Ford Algorithm" },
+            { "title": "Memoization" },
+            { "title": "Segment Trees" },
+            { "title": "Alpha-Beta Elimination" },
+            { "title": "Graph Coloring" }
+          ]
+        },
+
+        {
+          "title": "4. In a turn-based game, if both players play optimally and the first player has a forced win, what type of game position is it?",
+          "options": [
+            { "title": "Stalemate" },
+            { "title": "Losing position" },
+            { "title": "Tied state" },
+            { "title": "Forced draw" },
+            { "title": "Winning position", "correct": true },
+            { "title": "Deadlock" },
+            { "title": "Terminal state" },
+            { "title": "Random position" }
+          ]
+        }
+      ]
+    },
+
+    "top14": {
+      "questions": [
+        {
+          "title": "1. Which of the following sorting algorithms has the best average-case time complexity?",
+          "options": [
+            { "title": "Bubble Sort" },
+            { "title": "Insertion Sort" },
+            { "title": "Selection Sort" },
+            { "title": "Merge Sort", "correct": true },
+            { "title": "Gnome Sort" },
+            { "title": "Radix Sort" },
+            { "title": "Heap Sort" },
+            { "title": "Shell Sort" }
+          ]
+        },
+
+        {
+          "title": "2. What is the time complexity of the worst-case of Quick Sort?",
+          "options": [
+            { "title": "O(n^2)", "correct": true },
+            { "title": "O(n log n)" },
+            { "title": "O(log n)" },
+            { "title": "O(n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(n log log n)" },
+            { "title": "O(√n)" },
+            { "title": "O(2^n)" }
+          ]
+        },
+
+        {
+          "title": "3. What is the auxiliary space complexity of Merge Sort?",
+          "options": [
+            { "title": "O(1)" },
+            { "title": "O(log n)" },
+            { "title": "O(n)", "correct": true },
+            { "title": "O(n log n)" },
+            { "title": "O(n^2)" },
+            { "title": "O(2n)" },
+            { "title": "O(n!)" },
+            { "title": "O(√n)" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following sorting algorithms is **stable**?",
+          "options": [
+            { "title": "Heap Sort" },
+            { "title": "Selection Sort" },
+            { "title": "Quick Sort" },
+            { "title": "Counting Sort", "correct": true },
+            { "title": "Shell Sort" },
+            { "title": "Radix Sort (if stable sort used at each digit)" },
+            { "title": "Merge Sort" },
+            { "title": "Bucket Sort" }
+          ]
+        }
+      ]
+    },
+
+    "top15": {
+      "questions": [
+        {
+          "title": "1. What will `*(&x)` return in C, where `int x = 10;`?",
+          "options": [
+            { "title": "Address of x" },
+            { "title": "Garbage value" },
+            { "title": "Value of x", "correct": true },
+            { "title": "Segmentation fault" },
+
+            { "title": "NULL" },
+            { "title": "Reference to x" },
+            { "title": "Nothing" },
+            { "title": "Error: invalid syntax" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of the following C code?\n```c\nint a = 5;\nint *p = &a;\nprintf(\"%d\", *p);\n```",
+          "options": [
+            { "title": "0" },
+            { "title": "Address of a" },
+            { "title": "Error" },
+            { "title": "5", "correct": true },
+            { "title": "Garbage" },
+            { "title": "NULL" },
+            { "title": "Segmentation fault" },
+            { "title": "1" }
+          ]
+        },
+
+        {
+          "title": "3. What does the `NULL` pointer represent in C/C++?",
+          "options": [
+            { "title": "Points to random memory" },
+            {
+              "title": "A pointer that doesn't point to any memory location",
+              "correct": true
+            },
+            { "title": "Points to last memory location" },
+            { "title": "A pointer that causes segmentation fault" },
+
+            { "title": "Points to address 1" },
+            { "title": "Pointer to pointer" },
+            { "title": "Points to static memory" },
+            { "title": "Reference to void pointer" }
+          ]
+        },
+
+        {
+          "title": "4. What is the size of a pointer on a 64-bit system?",
+          "options": [
+            { "title": "2 bytes" },
+            { "title": "4 bytes" },
+            { "title": "6 bytes" },
+
+            { "title": "16 bytes" },
+            { "title": "Depends on data type" },
+            { "title": "12 bytes" },
+            { "title": "It varies randomly" },
+            { "title": "8 bytes", "correct": true }
+          ]
+        }
+      ]
+    },
+
+    "top16": {
+      "questions": [
+        {
+          "title": "1. What will `*(&x)` return in C, where `int x = 10;`?",
+          "options": [
+            { "title": "Address of x" },
+            { "title": "Garbage value" },
+            { "title": "Segmentation fault" },
+
+            { "title": "NULL" },
+            { "title": "Reference to x" },
+            { "title": "Nothing" },
+            { "title": "Value of x", "correct": true },
+            { "title": "Error: invalid syntax" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of the following C code?\n```c\nint a = 5;\nint *p = &a;\nprintf(\"%d\", *p);\n```",
+          "options": [
+            { "title": "0" },
+            { "title": "Address of a" },
+            { "title": "Error" },
+            { "title": "5", "correct": true },
+            { "title": "Garbage" },
+            { "title": "NULL" },
+            { "title": "Segmentation fault" },
+            { "title": "1" }
+          ]
+        },
+
+        {
+          "title": "3. What does the `NULL` pointer represent in C/C++?",
+          "options": [
+            { "title": "Points to random memory" },
+            {
+              "title": "A pointer that doesn't point to any memory location",
+              "correct": true
+            },
+            { "title": "Points to last memory location" },
+            { "title": "A pointer that causes segmentation fault" },
+
+            { "title": "Points to address 1" },
+            { "title": "Pointer to pointer" },
+            { "title": "Points to static memory" },
+            { "title": "Reference to void pointer" }
+          ]
+        },
+
+        {
+          "title": "4. What is the size of a pointer on a 64-bit system?",
+          "options": [
+            { "title": "2 bytes" },
+            { "title": "4 bytes" },
+            { "title": "6 bytes" },
+
+            { "title": "16 bytes" },
+            { "title": "Depends on data type" },
+            { "title": "8 bytes", "correct": true },
+            { "title": "12 bytes" },
+            { "title": "It varies randomly" }
+          ]
+        }
+      ]
+    },
+
+    "top17": {
+      "questions": [
+        {
+          "title": "1. Which of the following algorithms uses the divide and conquer paradigm?",
+          "options": [
+            { "title": "Breadth First Search" },
+            { "title": "Bubble Sort" },
+            { "title": "Prim’s Algorithm" },
+            { "title": "Merge Sort", "correct": true },
+            { "title": "Greedy Scheduling" },
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Counting Sort" },
+            { "title": "Linear Search" }
+          ]
+        },
+
+        {
+          "title": "2. What is the recurrence relation for the time complexity of Merge Sort?",
+          "options": [
+            { "title": "T(n) = T(n/2) + n^2" },
+            { "title": "T(n) = T(n-1) + O(1)" },
+            { "title": "T(n) = 2T(n/2) + O(n)", "correct": true },
+            { "title": "T(n) = T(n/2) + O(n log n)" },
+            { "title": "T(n) = T(n) + T(n-1)" },
+            { "title": "T(n) = nT(n-1)" },
+            { "title": "T(n) = T(n-1) + T(n-2)" },
+            { "title": "T(n) = 2T(n-1) + O(1)" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following problems can be solved using Divide and Conquer?",
+          "options": [
+            { "title": "Binary Search", "correct": true },
+            { "title": "Dijkstra's Algorithm" },
+            { "title": "Floyd Warshall Algorithm" },
+            { "title": "Topological Sorting" },
+            { "title": "DFS Traversal" },
+            { "title": "Union-Find" },
+            { "title": "Huffman Encoding" },
+            { "title": "Cycle Detection in Graph" }
+          ]
+        },
+
+        {
+          "title": "4. What is the main idea behind the divide and conquer paradigm?",
+          "options": [
+            { "title": "Always solve the problem iteratively" },
+            {
+              "title": "Split the problem into equal halves, solve them independently, and combine the results",
+              "correct": true
+            },
+            { "title": "Solve the smallest subproblem multiple times" },
+            { "title": "Search all possibilities using brute force" },
+            { "title": "Convert the problem into a graph" },
+            { "title": "Try all paths recursively" },
+            { "title": "Store and reuse overlapping subproblems" },
+            { "title": "Apply greedy decisions at each step" }
+          ]
+        }
+      ]
+    },
+
+    "top18": {
+      "questions": [
+        {
+          "title": "1. What is the base case in recursion?",
+          "options": [
+            { "title": "The case that causes infinite recursion" },
+            { "title": "A condition that always returns false" },
+            { "title": "The last recursive call in a stack" },
+            {
+              "title": "The condition where the recursion stops",
+              "correct": true
+            },
+            { "title": "The first function call" },
+            { "title": "The deepest level of iteration" },
+            { "title": "A loop inside a function" },
+            { "title": "The initial value in recursion" }
+          ]
+        },
+
+        {
+          "title": "2. What is the output of this code?\n```c\nint fact(int n) {\n  if(n == 0) return 1;\n  return n * fact(n - 1);\n}\nint main() {\n  printf(\"%d\", fact(3));\n  return 0;\n}\n```",
+          "options": [
+            { "title": "3" },
+            { "title": "6", "correct": true },
+            { "title": "9" },
+            { "title": "0" },
+            { "title": "1" },
+            { "title": "Error" },
+            { "title": "Infinity" },
+            { "title": "Garbage value" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is a key drawback of recursion?",
+          "options": [
+            { "title": "Too much use of loops" },
+            { "title": "Requires large arrays" },
+            {
+              "title": "Consumes more memory due to function call stack",
+              "correct": true
+            },
+            { "title": "Can’t solve mathematical problems" },
+            { "title": "Slower compilation" },
+            { "title": "Works only in C++" },
+            { "title": "Incompatible with pointers" },
+            { "title": "It always leads to segmentation faults" }
+          ]
+        },
+
+        {
+          "title": "4. Which technique is used to avoid recomputation in recursive algorithms like Fibonacci?",
+          "options": [
+            { "title": "Greedy" },
+            { "title": "Divide and Conquer" },
+            { "title": "Binary Search" },
+            { "title": "Backtracking" },
+            { "title": "Loop unrolling" },
+            { "title": "Branch and Bound" },
+            { "title": "Memoization", "correct": true },
+            { "title": "Graph Traversal" }
+          ]
+        }
+      ]
+    },
+
+    "top19": {
+      "questions": [
+        {
+          "title": "1. Which of the following problems is most commonly solved using the backtracking technique?",
+          "options": [
+            { "title": "N-Queens Problem", "correct": true },
+            { "title": "Binary Search" },
+            { "title": "Finding the shortest path in a graph" },
+
+            { "title": "Counting Sort" },
+            { "title": "Merge Sort" },
+            { "title": "Matrix Multiplication" },
+            { "title": "Minimum Spanning Tree" },
+            { "title": "Bellman-Ford Algorithm" }
+          ]
+        },
+
+        {
+          "title": "2. What is the main idea behind backtracking?",
+          "options": [
+            {
+              "title": "Exploring all possible solutions by systematically searching through the entire space"
+            },
+            {
+              "title": "Breaking down problems into sub-problems and solving them recursively"
+            },
+            { "title": "Using greedy choices to find the optimal solution" },
+            {
+              "title": "Trying all possible configurations and undoing the last step if it leads to an invalid state",
+              "correct": true
+            },
+            {
+              "title": "Dividing the problem into smaller sub-problems using dynamic programming"
+            },
+            { "title": "Traversing the problem space in a sequential manner" },
+            { "title": "Using a priority queue to explore the problem space" },
+            { "title": "Optimizing the search by pruning unnecessary branches" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is a key step in implementing a backtracking algorithm?",
+          "options": [
+            { "title": "Choosing a decision" },
+            { "title": "Both 2 and 3", "correct": true },
+            { "title": "Exploring each possibility by recursion" },
+            { "title": "Undoing the decision if it leads to an invalid state" },
+
+            { "title": "Memoization of sub-solutions" },
+            { "title": "Using a priority queue for decision making" },
+            { "title": "Sorting the input to reduce search space" },
+            { "title": "Converting the problem into a graph" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following algorithms uses backtracking to solve the problem of generating all possible combinations of a set of numbers?",
+          "options": [
+            { "title": "Breadth First Search" },
+            { "title": "Depth First Search" },
+            { "title": "Subset Sum Problem" },
+
+            { "title": "Knapsack Problem" },
+            { "title": "Topological Sorting" },
+            { "title": "Permutations and Combinations", "correct": true },
+            { "title": "Kruskal’s Algorithm" },
+            { "title": "Bellman-Ford Algorithm" }
+          ]
+        }
+      ]
+    },
+
+    "top20": {
+      "questions": [
+        {
+          "title": "1. What does the operation `n & (n-1)` do for an integer `n`?",
+          "options": [
+            { "title": "It sets all bits of `n` to 1" },
+            { "title": "It doubles the value of `n`" },
+            { "title": "It clears all bits of `n`" },
+            {
+              "title": "It removes the rightmost set bit of `n`",
+              "correct": true
+            },
+            { "title": "It flips all bits of `n`" },
+            { "title": "It shifts `n` to the left by 1 position" },
+            { "title": "It adds 1 to `n`" },
+            { "title": "It calculates the number of set bits in `n`" }
+          ]
+        },
+
+        {
+          "title": "2. What is the time complexity of checking if a number is a power of 2 using the expression `n & (n - 1)`?",
+          "options": [
+            { "title": "O(n)" },
+            { "title": "O(log n)" },
+
+            { "title": "O(n^2)" },
+            { "title": "O(n log n)" },
+            { "title": "O(1)", "correct": true },
+            { "title": "O(log log n)" },
+            { "title": "O(n^3)" },
+            { "title": "O(1) only for positive integers" }
+          ]
+        },
+
+        {
+          "title": "3. Which of the following is the correct bitmask for flipping the k-th bit of a number `x`?",
+          "options": [
+            { "title": "x & (1 << k)" },
+            { "title": "x | (1 << k)" },
+            { "title": "x + (1 << k)" },
+            { "title": "x ^ (1 << k)", "correct": true },
+            { "title": "x & ~(1 << k)" },
+            { "title": "x ^ (k << 1)" },
+            { "title": "x << k" },
+            { "title": "x & k" }
+          ]
+        },
+
+        {
+          "title": "4. Which of the following problems can be solved efficiently using bitmasking?",
+          "options": [
+            { "title": "Finding the longest common subsequence" },
+            { "title": "Subset Sum Problem" },
+
+            { "title": "Finding the shortest path in a graph" },
+            { "title": "Sorting large arrays" },
+            { "title": "Maximum Subarray Sum" },
+            { "title": "Binary Search on a sorted array" },
+            {
+              "title": "Traveling Salesman Problem (TSP) for small number of cities",
+              "correct": true
+            },
+            { "title": "Finding prime numbers up to N" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "helps": {
+    "top1": {
+      "yt": "https://www.youtube.com/results?search_query=binary+seach",
+      "gpt": "https://chatgpt.com/share/67eeb842-4d38-8003-9663-47deca8fee7e",
+      "gfg": "https://www.geeksforgeeks.org/binary-search/"
+    },
+    "top10": {
+      "yt": "https://www.youtube.com/results?search_query=two+pointer",
+      "gpt": "https://chatgpt.com/share/67f8c2f7-48dc-8006-96ef-8c12dfe40385",
+      "gfg": "https://www.geeksforgeeks.org/two-pointers-technique/"
+    },
+    "top11": {
+      "yt": "https://www.youtube.com/results?search_query=linked+list",
+      "gpt": "https://chatgpt.com/share/67f8c3ed-e220-8006-8c4e-0904ca73a911",
+      "gfg": "https://www.geeksforgeeks.org/linked-list-data-structure/"
+    },
+    "top12": {
+      "yt": "https://www.youtube.com/results?search_query=graph+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8c445-c97c-8006-b1c1-0106c404f9f1",
+      "gfg": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"
+    },
+    "top13": {
+      "yt": "https://www.youtube.com/results?search_query=tree+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8c448-37f8-8006-94a2-05620c43e766",
+      "gfg": "https://www.geeksforgeeks.org/introduction-to-tree-data-structure/"
+    },
+    "top14": {
+      "yt": "https://www.youtube.com/results?search_query=dp+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8c449-a128-8006-8931-fe209329238a",
+      "gfg": "https://www.geeksforgeeks.org/dynamic-programming/"
+    },
+    "top15": {
+      "yt": "https://www.youtube.com/results?search_query=array+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8c44b-2ad0-8006-8b99-11f8c888b35e",
+      "gfg": "https://www.geeksforgeeks.org/what-is-array/"
+    },
+    "top16": {
+      "yt": "https://www.youtube.com/results?search_query=hashing+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8c44c-9cdc-8006-ac53-91d806e9a4be",
+      "gfg": "https://www.geeksforgeeks.org/hashing-data-structure/"
+    },
+
+    "top17": {
+      "yt": "https://www.youtube.com/results?search_query=stack+data+structure",
+      "gpt": "https://chatgpt.com/share/67f8f4f9-6b78-8003-8821-edb4969432e4",
+      "gfg": "https://www.geeksforgeeks.org/stack-data-structure/"
+    },
+
+    "top18": {
+      "yt": "https://www.youtube.com/results?search_query=queue+data+structure",
+      "gpt": "https://chatgpt.com/share/67f929e9-969c-8008-b07b-ee5bfb6c34cc",
+      "gfg": "https://www.geeksforgeeks.org/queue-data-structure/"
+    },
+
+    "top19": {
+      "yt": "https://www.youtube.com/results?search_query=number+theory+coding",
+      "gpt": "https://chatgpt.com/share/67f929eb-46f8-8008-a18e-6c9e15f66301",
+      "gfg": "https://www.geeksforgeeks.org/number-theory/"
+    },
+
+    "top2": {
+      "yt": "https://www.youtube.com/results?search_query=string+coding",
+      "gpt": "https://chatgpt.com/share/67f929ec-d788-8008-b2b9-d2a6da5173e3",
+      "gfg": "https://www.geeksforgeeks.org/string-data-structure/"
+    },
+
+    "top20": {
+      "yt": "https://www.youtube.com/results?search_query=game+thoery+coding",
+      "gpt": "https://chatgpt.com/share/67f929ee-4e18-8008-9147-408a9a1ab51d",
+      "gfg": "https://www.geeksforgeeks.org/game-theory/"
+    },
+
+    "top3": {
+      "yt": "https://www.youtube.com/results?search_query=sorting+coding",
+      "gpt": "https://chatgpt.com/share/67f929ef-9f58-8008-b063-f5c198b59edd",
+      "gfg": "https://www.geeksforgeeks.org/sorting-algorithms/"
+    },
+
+    "top4": {
+      "yt": "https://www.youtube.com/results?search_query=pointer++coding",
+      "gpt": "https://chatgpt.com/share/67f929f1-16d0-8008-a101-b78916342313",
+      "gfg": "https://www.geeksforgeeks.org/c-pointers/"
+    },
+
+    "top5": {
+      "yt": "https://www.youtube.com/results?search_query=heap+coding",
+      "gpt": "https://chatgpt.com/share/67f92acb-b694-8008-8887-58eb669c0814",
+      "gfg": "https://www.geeksforgeeks.org/heap-data-structure/"
+    },
+
+    "top6": {
+      "yt": "https://www.youtube.com/results?search_query=divide+and+conquer++coding",
+      "gpt": "https://chatgpt.com/share/67f92acd-7714-8008-a3d0-b85b38bdbf1b",
+      "gfg": "https://www.geeksforgeeks.org/divide-and-conquer/"
+    },
+
+    "top7": {
+      "yt": "https://www.youtube.com/results?search_query=recursion++coding",
+      "gpt": "https://chatgpt.com/share/67f92ace-e9c4-8008-9350-3ac83675c410",
+      "gfg": "https://www.geeksforgeeks.org/introduction-to-recursion-2/"
+    },
+
+    "top8": {
+      "yt": "https://www.youtube.com/results?search_query=backtracking++coding",
+      "gpt": "https://chatgpt.com/share/67f92ad0-7a74-8008-8ddd-2e9d7a1b86f0",
+      "gfg": "https://www.geeksforgeeks.org/backtracking-algorithms/"
+    },
+
+    "top9": {
+      "yt": "https://www.youtube.com/results?search_query=bitmasking++coding",
+      "gpt": "https://chatgpt.com/share/67f92ad2-0064-8008-b70a-6743349eede6",
+      "gfg": "https://www.geeksforgeeks.org/what-is-bitmasking/"
+    }
+  }
+}

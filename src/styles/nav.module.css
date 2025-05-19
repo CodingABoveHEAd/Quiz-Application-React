@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  height: 93px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 1;
+}
+
+.name {
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.login {
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  color: rgb(20, 20, 167);
+  cursor: pointer;
+  text-decoration: none;
+  /* background-color: red; */
+  /* padding-left: 40px; */
+}
+
+.spa {
+  font-size: 30px;
+  margin-top: 30px;
+  color: black;
+  /* background-color: red; */
+  padding-right: 50px;
+}
+
+.spa2 {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 569px) {
+  .spa {
+    font-size: 20px;
+    margin-top: 33.7px;
+  }
+  .spa2 {
+    margin-right: 6px;
+  }
+  .login {
+    right: 10px;
+  }
+}

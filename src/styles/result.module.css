@@ -1,0 +1,9 @@
+.container {
+  width: 90%;
+  max-width: 1500px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  bottom: 50px;
+}

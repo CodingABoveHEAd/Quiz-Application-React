@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(40, 136, 214);
+}
+
+body {
+  background-color: rgb(231, 240, 248);
+}
+
+.infinite-scroll-component {
+  height: auto;
+  /* border: 1px solid black; */
+  width: 95%;
+  max-width: 1700px;
+  margin: auto;
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.link {
+  color: #2c3e50;
+}
+
+.link:hover {
+  color: #27588a;
+}
+
+.load {
+  font-size: 25px;
+  margin-top: 110px;
+  text-align: center;
+}

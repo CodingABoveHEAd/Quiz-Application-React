@@ -1,0 +1,31 @@
+.questions {
+  position: relative;
+  height: 500px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  animation-name: quiz;
+  animation-duration: 0.25s;
+}
+
+@keyframes quiz {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+
+    /* color: #4d194d8a; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .questions {
+    height: 800px;
+  }
+}
+
+/* @media screen and (max-width: 505px) {
+  .questions {
+    height: 800px;
+  }
+} */

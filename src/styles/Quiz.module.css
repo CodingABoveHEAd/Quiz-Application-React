@@ -1,0 +1,13 @@
+.bod {
+  width: 90%;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 150px;
+  max-width: 1500px;
+  position: relative;
+}
+
+body {
+  background-color: rgb(231, 240, 248);
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 1;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: rgb(40, 136, 214);
+}
+
+#name {
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+#login {
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  color: rgb(20, 20, 167);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*............Login Section..................  */
+
+.signup {
+  display: flex;
+  width: 98%;
+  max-width: 1500px;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 150px;
+}
+
+.left {
+  width: 50%;
+  height: 700px;
+  position: relative;
+}
+
+.left p {
+  font-size: 30px;
+  position: absolute;
+  left: -10px;
+  color: rgb(76, 61, 131);
+}
+
+.left img {
+  height: 80%;
+  width: 100%;
+  margin-top: 20px;
+  max-width: 600px;
+  /* border: 1px solid black; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+.right input,
+button {
+  width: 95%;
+  height: 40px;
+  margin: 10px 0px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.108);
+  border: 0px;
+  border-radius: 7px;
+  font-size: 16px;
+  /* cursor: pointer; */
+}
+button {
+  background-color: rgb(139, 200, 240);
+  transition: background-color 1s;
+  height: 45px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(75, 122, 224);
+}
+
+.right p {
+  font-size: 14px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.right a {
+  text-decoration: none;
+  color: rgb(40, 40, 240);
+}
+@media screen and (max-width: 700px) {
+  .signup {
+    display: block;
+  }
+  .left {
+    width: 100%;
+    height: 550px;
+    /* margin-bottom: 0px; */
+  }
+  .left p {
+    position: static;
+    text-align: center;
+  }
+  .right {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+}
