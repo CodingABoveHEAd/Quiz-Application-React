@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import "../styles/global.css";
@@ -83,7 +83,12 @@ export default function Signup() {
           <div>
             <input
               type="checkbox"
-              style={{ cursor: "pointer", width: "15px", height: "13px" }}
+              style={{
+                marginRight: "5px",
+                cursor: "pointer",
+                width: "15px",
+                height: "13px",
+              }}
               required
               value={agree}
               onChange={(e) => setagree(e.target.value)}
